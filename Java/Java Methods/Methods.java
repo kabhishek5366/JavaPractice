@@ -1,6 +1,6 @@
 public class Methods {
 
-  // In this Method class it includes example of method & also Method Overloading
+  // In this Method class it includes example of Method Overloading
 
   public static void callMe() {
     System.out.println("Thanks for Calling Me.!");
