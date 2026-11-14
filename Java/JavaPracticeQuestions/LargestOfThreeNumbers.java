@@ -13,8 +13,9 @@ public class LargestOfThreeNumbers {
       .trim()
       .split("\\s+");
 
+    sc.close();
     for (String elem : largestOfThreeNumbersArray) {
-    //   System.out.println(elem + theMaxNumber);
+      //   System.out.println(elem + theMaxNumber);
       int num = Integer.parseInt(elem);
       if (num > theMaxNumber) {
         theMaxNumberOutput = num;
