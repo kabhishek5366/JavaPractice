@@ -1,7 +1,7 @@
 class C extends comjava.Car {
 
   public void show() {
-    System.out.println(carModal);
+    System.out.println(carModel);
   }
 }
 
